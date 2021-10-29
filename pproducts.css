@@ -1,0 +1,34 @@
+.img
+{
+    height:300px;
+    width:300px;
+    border:black 1px solid;
+}
+body{
+    background-color: blueviolet;
+    color:greenyellow;
+}
+.p
+{
+    font-size: 20px;
+}
+.con
+{
+    border:black 1px solid;
+}
+button
+{
+    height:60px;
+    width:150px;
+    background-color: orange;
+    color:white;
+    margin-left: 60px;
+}
+.btn1
+{
+    height:70px;
+    width:400px;
+    background-color: black;
+    color:chartreuse;
+    font-size: 30px;
+}

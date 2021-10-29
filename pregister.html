@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <style>
+        #table
+        {
+            background-color: aqua;
+            color:coral;
+            font-size: x-large;
+        }
+        button
+        {
+            color:white;
+            height:50px;
+            width:80px;
+            background-color: cornflowerblue;
+            margin-left: 400px;
+        }
+        input,textarea
+        {
+            background-color: cornsilk;
+        }
+    </style>
+</head>
+<body>
+    <div id="table">
+    <fieldset>
+        <legend>Registration Form</legend>
+    <form>
+        <table>
+            <tr>
+                <td> <label for="name">Name:</label></td>
+                <td><input id="name" name="name" type="text" placeholder="Name" title="not valid" ></td>
+            </tr>
+            <tr>
+                <td><label for="password">Password:</label></td>
+                <td><input  id="password"name="password" type="password" placeholder="Password" ></td>
+            </tr>
+            <tr>
+                <td><label for="email">Email:</label></td>
+                <td><input id="email" name="email" type="email" placeholder="Email" ></td>
+            </tr>
+            <tr>
+                <td><label for="dob">Date of Birth:</label></td>
+                <td><input id="dob" name="dob" type="date"  ></td>
+            </tr>
+            <tr>
+                <td><label for="phone">Phone number:</label></td>
+                <td><input id="phone" name="phone" type="number"> </td>
+            </tr>
+            <tr>
+                <td><label for="gender">Gender:</label></td>
+                <td><input id="gender" type="radio" name="gender">Male <br><input id="gender" type="radio" name="gender">Female <br><input id="gender" type="radio" name="gender" >Other</td>
+                
+                   
+            </tr>
+            <tr>
+                <td><label for="">Languages Known</label></td>
+                <td><input type="checkbox" name="language"checked >Kannada
+                    <br> <input type="checkbox" name="language">English <br>
+                    <input type="checkbox" name="language">Hindi
+            </tr>
+            <tr>
+                <td>
+                    <label for="">Branch:</label>
+
+                </td>
+                <td>
+                    <input list="branches" placeholder="---select one---">
+                    <br>
+                    <datalist id="branches">
+                        <option  >--Select--</option>
+                        <option value="ECE">ece</option>
+                        <option value="CSE"></option>
+                        <option value="MECH"></option>
+                        <option value="CIVIL"></option>
+                        <option value="EEE"></option>
+                        <!-- first priority value -->
+                    </datalist>
+                </td>
+            </tr>
+            <tr>
+                <td><label for="">Feedback:</label></td>
+                <td><textarea cols="50
+                    " rows="10">Feedback</textarea></td> 
+
+            </tr>
+            
+                <td><button><a href="./project.html"target="blank">SUBMIT</a></button></td>
+            </tr>
+        </table>
+       
+        
+    </form>
+    </fieldset>
+    </div>
+    
+</body>
+</html>

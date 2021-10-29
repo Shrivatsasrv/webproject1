@@ -1,0 +1,132 @@
+#navbar{
+    background:linear-gradient(red, rgb(248, 233, 144));
+    /* background-color: blueviolet;*/
+    border:1px solid black; 
+    display:flex;
+    /* position:sticky;
+    top:10px; */
+    
+    
+}
+#sti
+{
+    position:sticky;
+    top:10px;
+}
+#img1
+{
+    justify-content: left;
+    width:20%;
+}
+#content
+{
+    /* justify-content: center; */
+    width:80%;
+    margin:auto;
+    margin-left:200px;
+}
+#btn
+{
+    
+    justify-content: center;
+    margin:auto;
+    margin-right:20px;
+}
+a
+{
+    color:white;
+    font-size: x-large;
+    text-decoration: none;
+}
+span
+{
+    padding-left: 50px;
+    
+    
+}
+button
+{
+    margin-left: 100px;
+    height:50px;
+    width:100px;
+    color:white;
+    background-color: violet;
+    
+    
+    
+}
+#aa
+{
+    
+    display:flex;
+    /* margin:auto; */
+    padding-top:10px;
+    /* justify-content: center; */
+    /* border:white 1px solid; */
+}
+.a
+{
+    justify-content: left;
+}
+a:hover
+{
+    color:chartreuse
+}
+#bb
+{
+    background-color:black;
+    color:gold;
+    
+}
+#img2
+{
+    width:1300px;
+    height:600px;
+    border:1px solid gold;
+    margin:auto;
+}
+.main_gallery
+{
+    /* display:flex; */
+    border:1px solid red;
+    /* background:linear-gradient(red,yellow,grey); */
+    background:linear-gradient(red,orange,gold,yellow,whitesmoke,grey);
+    
+}
+.gallery
+{
+    display:flex;
+    justify-content: space-evenly;
+    padding-bottom: 50px;
+    border:solid 1px greenyellow;
+    
+
+
+
+}
+.img3
+{
+    height:400px;
+    width:400px;
+    border:1px solid gold;;
+}
+h1
+{
+    text-align: center;
+}
+body
+{
+    background:linear-gradient(red,orange,gold,yellow,whitesmoke,grey);
+    border:white 1px solid;
+}
+footer
+{
+    background-color:black;
+    color:white;
+    font-size: large;
+    
+}
+ footer div i
+{
+   font-size: 50px;
+}
