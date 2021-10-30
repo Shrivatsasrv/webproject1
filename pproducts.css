@@ -2,10 +2,10 @@
 {
     height:300px;
     width:300px;
-    border:black 1px solid;
+    border:coral 1px solid;
 }
 body{
-    background-color: blueviolet;
+    background-color:black;
     color:greenyellow;
 }
 .p
@@ -14,7 +14,7 @@ body{
 }
 .con
 {
-    border:black 1px solid;
+    border:cornflowerblue 1px solid;
 }
 button
 {
@@ -28,7 +28,7 @@ button
 {
     height:70px;
     width:400px;
-    background-color: black;
-    color:chartreuse;
+    background-color: cornflowerblue;
+    color:crimson;
     font-size: 30px;
 }
